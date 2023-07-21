@@ -1,0 +1,7 @@
+- To run this program:  
+    - Docker Desktop is needed to run this, so please have it installed and opened on your machine.
+    - Currently, this program only has input.yaml as a potential file to be referenced. Add other test yaml files within the home directory if you wish to test this program further.
+    - Once Docker Desktop is up and running, run the command ```docker build -t <image name> --rm .``` on the command line
+    - This command creates the image to be run later.
+    - Next run ```docker run <image name> <yaml file name> ``` CTRL+C ends the program
+        - Note: When this runs, the printed statements don't show up until CTRL+C is pressed. When run on the command line, the statements display, but I wasn't able to figure out how to mimic that using Docker. 
